@@ -1,0 +1,11 @@
+openapi: 3.1.0
+info:
+  title: CBMCE Diárias API
+  version: 0.1.0
+paths:
+  /oms:
+    post:
+      summary: Criar OM (stub)
+      responses:
+        '201':
+          description: Criado

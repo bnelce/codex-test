@@ -1,0 +1,24 @@
+{
+  "name": "cbmce-diarias",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r --parallel build",
+    "dev": "pnpm -r --parallel dev",
+    "lint": "eslint . --ext .ts,.tsx || true",
+    "typecheck": "tsc -b || true",
+    "format": "prettier --write . || true",
+    "generate:exemplo": "tsx apps/api/scripts/generateExemplo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.5.0",
+    "tsx": "^4.16.0",
+    "eslint": "^9.0.0"
+  }
+}
