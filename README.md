@@ -31,3 +31,7 @@ pnpm --filter @cbmce/web dev
 - Completar modelos/tabelas conforme necessidade.
 - Implementar fluxos (OM → validação → portaria → PDFs).
 - Adicionar CI/CD, testes e observabilidade.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
